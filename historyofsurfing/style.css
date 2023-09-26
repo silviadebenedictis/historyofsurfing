@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  color: greenyellow;
+  font-family: 'Alegreya ', sans-serif;
+  font-size: 20px;
+  margin: 10px 50px 10px 50px;
+  background-image: url('https://img.freepik.com/premium-photo/traveling-destination-city-tourists-architecture-nature-famous-placescolorful-town-country_853115-7003.jpg');
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+}
+
+h1, h2{
+  text-align: center;
+  font-family: 'Eczar', sans-serif;
+  font-size: 40px;
+}
+
+.surfer-profile {
+  display: inline-block; /* Make the profiles inline blocks */
+  width: 200px;
+  margin: 20px; /* Add some spacing around each profile */
+  text-align: center; /* Center align the profile contents */
+  position: relative; /* Relative positioning for surfer names */
+}
+
+/* Style the surfer names */
+.surfer-name {
+  position: absolute; /* Position the names absolutely within the profile */
+  bottom: 0; /* Position at the bottom of the profile */
+  font-family: 'Alegreya ', sans-serif;
+  color: greenyellow;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 5px; /* Add padding to the names for readability */
+}
